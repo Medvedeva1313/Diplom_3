@@ -6,9 +6,9 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.Assert;
 import org.junit.Test;
 import java.time.Duration;
-import static org.example.Urls.LOGIN_PAGE_URL;
+import static site.Urls.LOGIN_PAGE_URL;
 
-public class LogoutTest extends BeforeAndAfterTest {
+public class LogoutTest extends BaseTest {
     @Test
     @DisplayName("Checking the logout by Logout on the profile page")
     @Description("Check that the main page is displayed")

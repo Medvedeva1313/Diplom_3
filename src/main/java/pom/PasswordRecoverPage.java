@@ -3,7 +3,7 @@ package pom;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import static org.example.Urls.RECOVERY_PASSWORD_URL;
+import static site.Urls.RECOVERY_PASSWORD_URL;
 
 public class PasswordRecoverPage {
     private static final By enterButtonOnRecoverPage = By.xpath(".//a[text()='Войти']");

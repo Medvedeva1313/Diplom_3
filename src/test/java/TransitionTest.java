@@ -6,10 +6,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pom.MainPage;
 import java.time.Duration;
-import static org.example.Urls.LOGIN_PAGE_URL;
-import static org.example.Urls.BASE_URL;
+import static site.Urls.LOGIN_PAGE_URL;
+import static site.Urls.BASE_URL;
 
-public class TransitionTest extends BeforeAndAfterTest {
+public class TransitionTest extends BaseTest {
 
     @Test
     @DisplayName("Switch to the personal account from he main page by Personal Account button by not authorized user")

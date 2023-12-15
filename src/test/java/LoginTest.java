@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-public class LoginTest extends BeforeAndAfterTest {
+public class LoginTest extends BaseTest {
     @Test
     @DisplayName("Checking the login by Login button on the main page")
     @Description("Check that the main page is displayed with Checkout")

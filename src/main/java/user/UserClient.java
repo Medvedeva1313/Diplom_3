@@ -4,8 +4,8 @@ import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
 import data.User;
 import static io.restassured.RestAssured.given;
-import static org.example.Urls.*;
-import org.example.Client;
+import static site.Urls.*;
+import site.Client;
 import data.Authorization;
 
 

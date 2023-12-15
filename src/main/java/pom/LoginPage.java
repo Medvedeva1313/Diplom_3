@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
-import static org.example.Urls.LOGIN_PAGE_URL;
+import static site.Urls.LOGIN_PAGE_URL;
 
 public class LoginPage {
     private static final By loginEnterButton = By.xpath(".//*[text()='Войти']");

@@ -1,8 +1,8 @@
-package org.example;
+package site;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
-import static org.example.Urls.BASE_URL;
+import static site.Urls.BASE_URL;
 
 public class Client {
     public RequestSpecification getSpec() {

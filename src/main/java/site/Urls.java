@@ -1,4 +1,4 @@
-package org.example;
+package site;
 
 public class Urls {
     public static final String REGISTER_PAGE_URL = "https://stellarburgers.nomoreparties.site/register";

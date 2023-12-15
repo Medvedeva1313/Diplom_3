@@ -3,7 +3,7 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import data.User;
-import static org.example.Urls.REGISTER_PAGE_URL;
+import static site.Urls.REGISTER_PAGE_URL;
 
 public class RegistrationPage {
     private final WebDriver driver;

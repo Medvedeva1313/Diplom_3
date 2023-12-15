@@ -3,7 +3,7 @@ package pom;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import static org.example.Urls.BASE_URL;
+import static site.Urls.BASE_URL;
 
 public class MainPage {
     private static final By profileManeButton = By.xpath(".//p[text()='Личный Кабинет']");

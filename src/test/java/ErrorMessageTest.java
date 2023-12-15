@@ -11,7 +11,7 @@ import io.qameta.allure.junit4.DisplayName;
 import data.GeneratorForUsers;
 import pom.RegistrationPage;
 import java.time.Duration;
-import static org.example.Urls.ERROR_MESSAGE_OF_WRONG_PASSWORD;
+import static site.Urls.ERROR_MESSAGE_OF_WRONG_PASSWORD;
 import static pom.RegistrationPage.registerWrongPasswordMessageInRegisterPage;
 
 public class ErrorMessageTest {
